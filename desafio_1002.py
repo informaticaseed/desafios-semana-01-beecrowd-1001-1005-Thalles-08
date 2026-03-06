@@ -18,3 +18,17 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+#include <stdio.h>
+
+int main() {
+    double raio, area;
+    double pi = 3.14159;
+
+    scanf("%lf", &raio);
+
+    area = pi * raio * raio;
+
+    printf("A=%.4lf\n", area);
+
+    return 0;
+}
