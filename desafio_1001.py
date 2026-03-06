@@ -13,15 +13,9 @@ você receberá "Presentation Error".
 
 # Escreva sua sol#include <stdio.h>
 
-int main() {
-    int A, B, X;
+A = int(input())
+B = int(input())
 
-    scanf("%d", &A);
-    scanf("%d", &B);
+X = A + B
 
-    X = A + B;
-
-    printf("X = %d\n", X);
-
-    return 0;
-}ução abaixo
+print("X =", X)
