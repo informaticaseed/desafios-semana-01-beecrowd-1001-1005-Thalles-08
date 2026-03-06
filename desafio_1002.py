@@ -20,15 +20,9 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Escreva sua solução abaixo
 #include <stdio.h>
 
-int main() {
-    double raio, area;
-    double pi = 3.14159;
+A = int(input())
+B = int(input())
 
-    scanf("%lf", &raio);
+X = A + B
 
-    area = pi * raio * raio;
-
-    printf("A=%.4lf\n", area);
-
-    return 0;
-}
+print("X =", X)
