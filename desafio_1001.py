@@ -11,4 +11,17 @@ você receberá "Presentation Error".
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
-# Escreva sua solução abaixo
+# Escreva sua sol#include <stdio.h>
+
+int main() {
+    int A, B, X;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    X = A + B;
+
+    printf("X = %d\n", X);
+
+    return 0;
+}ução abaixo
